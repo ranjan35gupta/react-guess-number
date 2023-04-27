@@ -14,7 +14,7 @@ export function GuessNumber() {
         let yoursNumber = number
         console.log(typeof yoursNumber)
         setCount(count + 1)
-        if(yoursNumber.trim()==='' || typeof yoursNumber==="string"){
+        if(yoursNumber.trim()===''){
             alert("it is not a number")
             
         }

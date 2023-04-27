@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    width: 100vh;
+    height: 50vh;
+  background-image: linear-gradient(to right, rgba(32, 133, 145, 0.253), rgba(255, 0, 0, 0.591));
+  display:flex;
+  flex-direction: column;
+  
+
+}
+.container input{
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top:9px;
+    border:2px solid blue;
+}
+.container button{
+    width:200px;
+    height:35px;
+    border:2px solid brown;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 350px;
+    margin-top: 15px;
+
+
+}
+.container h1{ 
+    text-align: center;
+}
+.container h2{text-align: center;}

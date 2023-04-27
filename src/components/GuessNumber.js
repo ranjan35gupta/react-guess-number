@@ -12,14 +12,10 @@ export function GuessNumber() {
 
     function handleEvent() {
         let yoursNumber = number
-        console.log(typeof yoursNumber)
+       
         setCount(count + 1)
-        if(yoursNumber.trim()===''){
-            alert("it is not a number")
-            
-        }
         
-        else if (yoursNumber < randomnum ) {
+        if (yoursNumber < randomnum ) {
             alert("you guessed a smaller number")
 
 
@@ -35,6 +31,10 @@ export function GuessNumber() {
 
             setAns(`Congratulations! you guess rignt number in `)
             setCount1(count + " attempts")
+        }
+        else{
+            alert("it is not a number")
+            
         }
     }
 
